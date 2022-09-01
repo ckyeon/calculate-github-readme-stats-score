@@ -1,0 +1,36 @@
+{
+  "name": "github-readme-stats-calculator-cli",
+  "version": "1.0.0",
+  "description": "Calculate github-readme-stats score & Get values used in calculations",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "grsc": "./bin/github-readme-stats-calculator.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node /bin/github-readme-stats-calculator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckyeon/github-readme-stats-calculator-cli.git"
+  },
+  "author": "Kiyeon Cho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckyeon/github-readme-stats-calculator-cli/issues"
+  },
+  "homepage": "https://github.com/ckyeon/github-readme-stats-calculator-cli#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chork": "^2.0.0-alpha.0",
+    "commander": "^9.4.0",
+    "github-username-regex": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "typescript": "^4.8.2"
+  }
+}
