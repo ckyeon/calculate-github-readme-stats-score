@@ -1,6 +1,14 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,visualstudiocode,webstorm,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,visualstudiocode,webstorm,node
 
+# Output file
+lib/**/*.js
+commands/**/*.js
+bin/**/*.js
+lib/**/*.d.ts
+commands/**/*.d.ts
+bin/**/*.d.ts
+
 ### macOS ###
 # General
 .DS_Store
