@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 import { Command } from 'commander';
+import { CommandLoader } from '../commands';
 
 const bootstrap = () => {
   const program = new Command();
@@ -9,8 +10,11 @@ const bootstrap = () => {
     'Output the current version.',
   )
   .usage('<command> [options]')
-  .helpOption('-h, --help', 'Output usage information.')
-  .parse();
+  .helpOption('-h, --help', 'Output usage information.');
+
+  CommandLoader.load(program);
+
+  program.parse();
 
   if (!process.argv.slice(2).length) {
     program.outputHelp();
