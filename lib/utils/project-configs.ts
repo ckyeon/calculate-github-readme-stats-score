@@ -66,3 +66,17 @@ export const TOTAL_OFFSET =
   PRS_OFFSET +
   FOLLOWERS_OFFSET +
   REPO_OFFSET;
+
+// rank values
+export const RANK_S_ONE_PLUS_VALUE = 1;
+export const RANK_S_VALUE = 25;
+export const RANK_A_TWO_PLUS_VALUE = 45;
+export const RANK_A_ONE_PLUS_VALUE = 60;
+export const RANK_B_VALUE = 100;
+
+export const TOTAL_RANK_VALUE =
+  RANK_S_ONE_PLUS_VALUE +
+  RANK_S_VALUE +
+  RANK_A_TWO_PLUS_VALUE +
+  RANK_A_ONE_PLUS_VALUE +
+  RANK_B_VALUE;
