@@ -48,3 +48,21 @@ export const GITHUB_FETCH_TOTAL_COMMITS_HEADER = {
 
 export const GET = 'get';
 export const POST = 'post';
+
+// stat offsets
+export const COMMITS_OFFSET = 1.65;
+export const CONTRIBUTED_TO_OFFSET = 1.65;
+export const ISSUES_OFFSET = 1;
+export const STARS_OFFSET = 0.75;
+export const PRS_OFFSET = 0.5;
+export const FOLLOWERS_OFFSET = 0.45;
+export const REPO_OFFSET = 1;
+
+export const TOTAL_OFFSET =
+  COMMITS_OFFSET +
+  CONTRIBUTED_TO_OFFSET +
+  ISSUES_OFFSET +
+  STARS_OFFSET +
+  PRS_OFFSET +
+  FOLLOWERS_OFFSET +
+  REPO_OFFSET;
