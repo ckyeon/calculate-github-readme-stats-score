@@ -8,3 +8,6 @@
   *This project is a calculator from the <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> repository.
 </p>
 
+<p align="center">
+  <strong align="center">*This project is not yet complete.</strong>
+</p>
